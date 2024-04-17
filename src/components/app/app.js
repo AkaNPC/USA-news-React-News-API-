@@ -12,7 +12,7 @@ export default function App() {
     const [active, setActive] = useState(1);
 
     useEffect(() => {
-        fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=af5a769a964c48aaab7ab0fb9c358cb4')
+        fetch(`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=af5a769a964c48aaab7ab0fb9c358cb4`)
             .then(res => res.json())
             .then(data => setArticles(data.articles));
     }, [category]);
