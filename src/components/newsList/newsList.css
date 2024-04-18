@@ -7,14 +7,15 @@
 .itemStyle {
     width: 300px;
     height: auto;
-    border: 1px solid rgb(16, 40, 85);
+    border-top: 2px solid rgb(255, 15, 15);
     background-color: rgb(245, 245, 245);
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px rgb(204, 204, 204);
 }
 
 .itemStyle:hover {
-    background-color: rgb(232, 232, 232);
-    opacity: 0.95;
+    background-color: rgb(190, 207, 208);
+    opacity: 0.85;
+    transition: background-color 0.5s
 }
 
 .itemStyle img {

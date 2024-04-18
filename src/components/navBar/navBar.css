@@ -27,6 +27,7 @@ ul {
 
 .navListStyle li:hover {
     border-top: 4px solid rgb(221, 255, 159);
+    transition: border 0.5s
 }
 
 .activeCategory {
