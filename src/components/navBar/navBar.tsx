@@ -1,4 +1,5 @@
 import './navBar.css';
+import React from 'react';
 
 export default function NavBar({ active, setActive, setCategory }) {
     const menuList = [

@@ -1,8 +1,9 @@
 import './newsList.css';
 import ArticleDate from '../articleDate/articleDate';
+import React from 'react';
 
 export default function NewsList({ articles, setClickedUrl }) {
-    function handlerSourceUrl (url) {
+    function handlerSourceUrl(url) {
         setClickedUrl(url);
         window.open(url)
     }
